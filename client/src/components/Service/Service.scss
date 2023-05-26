@@ -1,0 +1,78 @@
+.service{
+    padding: 90px 250px;
+    display: flex;
+    align-items:center ;
+    justify-content:center ;
+    flex-direction: column;
+    &__title{
+        .line{
+            width: 10%;
+            background-color: black;
+            height: 2px;
+            margin: 0 auto;
+        }
+        h2{
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            color: rgba(0, 0, 0, 0.788);
+        }
+        p{
+            width: 550px;
+            text-align: center;
+            font-size: 17px;
+            color: rgba(128, 128, 128, 0.904);
+            margin-top: 40px;
+        }
+    }
+    &__cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        flex-wrap: wrap;
+        gap: 20px;
+        &__card{
+            padding: 20px 0px;
+            border: 1px solid black;
+            width: 23%;
+            height: 340px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            &__body{
+                padding: 20px 25px;
+                text-align: center;
+                .title{
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                }
+                .desc{
+                    color: rgba(0, 0, 0, 0.548);
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+                .price{
+                    margin: 15px 0px;
+                    color: rgb(136,191,234);
+                }
+                .btns{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    button{
+                        width: 70px;
+                        height: 30px;
+                        background-color: rgb(136,191,234);
+                        border: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

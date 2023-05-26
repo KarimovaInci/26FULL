@@ -1,0 +1,22 @@
+.custom__nav{
+    width: 100%;
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(255,255,255);
+    &__right{
+        width: 30%;
+        display: flex;
+        gap: 30px;
+        a{
+            color: black;   
+            font-size: 13px;
+        }
+        #home{
+                color: rgb(136,191,234);
+            }
+
+    }
+}
